@@ -1,0 +1,30 @@
+[
+  {
+    "id": "python-cpp-performance",
+    "title": "Programming language performance: Python and C++",
+    "source": "ClaimCheck starter knowledge base (educational summary)",
+    "url": "",
+    "text": "C++ is a compiled programming language that often provides high performance for compute-intensive applications. Python is commonly valued for readability and rapid development. Python programs may be slower than comparable optimized C++ programs for CPU-intensive work, although performance depends on implementation, libraries, workload, and runtime environment. Python can use optimized native libraries, so a blanket claim that one language is always faster is too broad. Benchmark the actual workload before making a performance decision."
+  },
+  {
+    "id": "semantic-search",
+    "title": "Semantic search and text embeddings",
+    "source": "ClaimCheck starter knowledge base (educational summary)",
+    "url": "",
+    "text": "Semantic search represents text as numerical vectors called embeddings and retrieves passages that are close in meaning to a query. Cosine similarity can rank the closeness of two nonzero vectors. A high semantic similarity score indicates related text, not factual correctness. A passage may discuss a claim without supporting it, and the system needs additional evidence-relation analysis to determine whether the passage supports or contradicts the claim."
+  },
+  {
+    "id": "machine-learning-basics",
+    "title": "Machine learning evaluation basics",
+    "source": "ClaimCheck starter knowledge base (educational summary)",
+    "url": "",
+    "text": "Machine learning systems learn patterns from examples. Training data is used to fit a model, while held-out test data is used to evaluate generalization. Accuracy measures the fraction of predictions that are correct. Precision measures the fraction of predicted positives that are correct, and recall measures the fraction of actual positives that are identified. Evaluation data should be separate from training data to reduce overly optimistic estimates of performance."
+  },
+  {
+    "id": "insufficient-evidence",
+    "title": "Handling insufficient evidence",
+    "source": "ClaimCheck starter knowledge base (educational summary)",
+    "url": "",
+    "text": "When a document collection does not contain relevant information, a claim verification system should report insufficient evidence rather than automatically treating the claim as false. Absence of evidence in a limited collection is not the same as evidence that a claim is false. The user should be shown the limits of the collection and encouraged to consult original sources."
+  }
+]
